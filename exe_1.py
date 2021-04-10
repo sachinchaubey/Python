@@ -1,0 +1,5 @@
+print(" this is \\\\ double backlash")
+print(" these are /\\/\\/\\/\\/\\ mountains")
+print(" he is\t awesome ")
+print(" \\\" \\n  \\t  \\\'  ")
+print("\U0001F605")
