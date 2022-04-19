@@ -152,10 +152,10 @@ while i < len(name):
  
 #for loop with range function :
 
-
-#for i in range(7, 11):
- #   print(f"hello world :{i}")
-
+'''
+for i in range(7, 11):
+    print(f"hello world :{i}")
+'''
 
 #################################################
 
@@ -471,8 +471,8 @@ matrix = [[1,[2,3]],[4,[5,6]],[7,[8,9]]]
 for sublist in matrix:
     for i in sublist:
             print(i)
-print(type(matrix))'''
-
+print(type(matrix))
+'''
 ###############################################
 '''
 num = list(range(1,11))
@@ -560,8 +560,8 @@ f1 = ['sachin', 'shivam', 'rishav']
 f2 = ['utkarsh','gaurav', 'pratik']
 
 f1.extend(f2)
-print(f1)'''
-
+print(f1)
+'''
 #################################################################
 
 # EXERSICE : 5.5:
@@ -614,7 +614,97 @@ print(gretest_(numbers))
 
 
 # Tuple :
-
+'''
 example = (2,4,5,6)
 print(example[1:3])
+'''
+'''
+mydata = raw_input('Prompt :')
+print (mydata)
+'''
+'''
+f1,f2,f3 = input("enter the three no :").split(',')
+avg = (int(f1) + int(f2) + int(f3))/3
+print(f"sum are :{round(avg,
+'''
+'''
+ab = [100,2,3,4,5]
+print(ab[::-1])
+'''
+'''
+list1 = ['m','n']
+list2 = ['y','k']
+for i in len(list1):
+    for j in len(list2):
+        print(list[i]+list[j])
+'''
+'''
+r = [1,3,4,5,6,7,8]
+square= []
+for i in r:
+    square.append(i*i)
+print (square)
+'''
 
+    
+
+
+'''
+list1 = ['1','2','3']
+print(len(list1))
+'''
+
+'''
+list1 = ['Mike','','Emma','','kelly']
+r = list(filter(None,list1))
+print(r)'''
+'''
+list1 = [10,20,[300,400,[5000,6000],500],30,40]
+'''
+
+#looping in tuples
+#mixed =(1,2,3,4.0)
+# for i in mixed:
+#     print(i)
+
+
+# max = ('sachin','chaubey',['utkarsh','yadav'])
+# max[2].pop()
+# max[2].append('shivam')
+# print(max)
+
+# def mix(int1,int2):
+#      add = int1 + int2
+#      multiply = int1*int2
+#      return add, multiply
+# print(mix(2,3))
+
+#mix = (1,3,5,6)
+# #num = str([1,2,3])
+# print(num)
+# print(type(num))
+
+#############################################
+############################################
+#dictoniries
+
+# mix = {
+#     'name' : 'sachin',
+#     'age' : 21,
+#     'fav_movies' : ['bhagmbhab','avangers'],
+#     'fav-song' : ['thunder','mast_magen'],
+# }
+# print(mix[])
+
+# user ={}
+# user['name'] ='sachin'
+# print(user)
+
+ 
+
+
+
+
+
+
+   
